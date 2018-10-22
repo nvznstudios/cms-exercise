@@ -58,7 +58,7 @@
 #eaze-gif-wrap .gif-search-wrapper-inner .gif-search-body #gif-search-input,
 .gif-search-wrapper .gif-search-wrapper-inner .gif-search-body #gif-search-input {
   display: inline-block;
-  width: calc(99% - 100px);
+  width: calc(98% - 100px);
   height: 40px;
 }
 
