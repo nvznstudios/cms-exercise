@@ -1,0 +1,231 @@
+.button {
+  background-color: #00AAE7;
+  padding: 0.75rem 1.15rem 0.825rem;
+  border: none;
+  border-radius: 2rem;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.button:hover {
+  background-color: #0092c7;
+}
+
+a {
+  color: #00AAE7;
+}
+
+a:hover {
+  color: #0092c7;
+}
+
+.site-header {
+  background-color: rgba(0, 170, 231, 0.1);
+  padding: 1rem 0;
+}
+
+.site-header .site-branding .cell:nth-of-type(1) .menu-btn {
+  cursor: pointer;
+}
+
+.site-header .site-branding .cell:nth-of-type(1) .enter-delivery-address {
+  margin-left: 1rem;
+  color: #000000;
+}
+
+.site-header .site-branding .cell:nth-of-type(1) .enter-delivery-address:hover {
+  color: #242424;
+}
+
+@media screen and (max-width: 767px) {
+  .site-header .site-branding .cell:nth-of-type(1) .enter-delivery-address {
+    display: none;
+  }
+}
+
+.site-header .site-branding .cell:nth-of-type(1) .enter-delivery-address svg {
+  vertical-align: middle;
+}
+
+.site-header .site-branding .cell:nth-of-type(1) .enter-delivery-address span {
+  vertical-align: top;
+  font-size: 0.875rem;
+}
+
+.site-header .site-branding .cell:nth-of-type(2) {
+  text-align: center;
+}
+
+.site-header .site-branding .cell:nth-of-type(3) {
+  text-align: right;
+}
+
+.site-header .site-branding .cell:nth-of-type(3) .login-link {
+  color: #000000;
+  font-size: 0.875rem;
+}
+
+.site-header .site-branding .cell:nth-of-type(3) .login-link:hover {
+  color: #242424;
+}
+
+@media screen and (max-width: 767px) {
+  .site-header .site-branding .cell:nth-of-type(3) .login-link {
+    display: none;
+  }
+}
+
+.site-header .site-branding .cell:nth-of-type(3) .shop-button svg {
+  vertical-align: middle;
+}
+
+.site-header .site-branding .cell:nth-of-type(3) .shop-button svg path {
+  fill: #ffffff;
+}
+
+@media screen and (max-width: 767px) {
+  .site-header .site-branding .cell:nth-of-type(3) .shop-button svg {
+    display: none;
+  }
+}
+
+.site-header .site-branding .cell:nth-of-type(3) .shop-button span {
+  vertical-align: bottom;
+  font-size: 0.875rem;
+}
+
+.site-header .site-branding .site-logo img,
+.site-header .site-branding .site-logo svg {
+  width: 100%;
+  max-width: 96px;
+}
+
+.site-footer {
+  background-color: #5c515a;
+  color: #ffffff;
+  padding: 1rem 0;
+}
+
+.site-footer .footer-links a {
+  display: block;
+  margin: 1rem 0;
+  color: #ffffff;
+}
+
+.site-footer .footer-links a:hover {
+  color: #dbdbdb;
+}
+
+.site-footer .site-info {
+  text-align: center;
+  font-size: 0.875rem;
+  margin: 50px 0;
+  font-weight: bold;
+}
+
+.position-left {
+  width: 300px;
+  -ms-transform: translateX(-300px);
+  transform: translateX(-300px);
+}
+
+.position-left.is-transition-push {
+  box-shadow: none;
+}
+
+.off-canvas .grid-x {
+  height: 100%;
+  flex-direction: column;
+}
+
+.off-canvas .site-logo a {
+  padding: .7rem 1rem;
+}
+
+.off-canvas .site-logo a img {
+  width: 100%;
+  max-width: 96px;
+}
+
+.off-canvas #site-navigation .menu ul {
+  display: block;
+}
+
+.off-canvas #site-navigation .menu ul.children {
+  background-color: #ffffff;
+}
+
+.off-canvas #site-navigation .menu ul li {
+  float: none;
+  clear: both;
+  display: block;
+}
+
+.off-canvas #site-navigation .menu ul li a {
+  color: #000000;
+}
+
+.off-canvas #site-navigation .menu ul li a:hover {
+  color: #242424;
+}
+
+.off-canvas .cta-links {
+  margin-top: 50px;
+  background-color: #817d80;
+  padding: 1.4rem;
+}
+
+.off-canvas .cta-links a {
+  margin-bottom: 1rem;
+  display: block;
+  text-align: center;
+  padding: 0.875rem;
+  border: 1px solid #00AAE7;
+}
+
+.off-canvas .cta-links a:hover {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+.off-canvas .cta-links a:nth-of-type(1) {
+  background-color: #00AAE7;
+  color: #ffffff;
+}
+
+.off-canvas .cta-links a:nth-of-type(2) {
+  background-color: #ffffff;
+  color: #00AAE7;
+}
+
+.off-canvas-content.is-open-left.has-transition-push {
+  -ms-transform: translateX(300px);
+  transform: translateX(300px);
+}
+
+.eaze-giphy-img {
+  margin: 1rem;
+}
+
+.eaze-giphy-img.aligncenter {
+  margin: 1rem auto;
+}
+
+.eaze-giphy-img.alignright {
+  margin-right: 0;
+}
+
+.eaze-giphy-img.alignleft {
+  margin-left: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .eaze-giphy-img {
+    width: 100%;
+    display: block;
+  }
+  .eaze-giphy-img.alignright, .eaze-giphy-img.alignleft {
+    margin: 1rem auto;
+    float: none;
+    clear: both;
+  }
+}
